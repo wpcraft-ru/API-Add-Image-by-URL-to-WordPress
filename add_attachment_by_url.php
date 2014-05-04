@@ -40,7 +40,6 @@ $attach_data = wp_generate_attachment_metadata( $attach_id, $file );
 
 wp_update_attachment_metadata( $attach_id, $attach_data );
 
-//set_post_thumbnail( $post_id, $attach_id );
 
 }
 
